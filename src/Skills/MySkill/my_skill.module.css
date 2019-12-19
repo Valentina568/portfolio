@@ -1,0 +1,23 @@
+.one_skill {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+}
+
+.block_skill {
+    height: 60%;
+}
+
+.icon {
+    background-color: #606060;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.description_skill {
+    background-color: #606060;
+    height: 40%;
+    text-align: center;
+}
+
