@@ -1,0 +1,42 @@
+.my_work {
+    width: 500px;
+    height: 500px;
+    background-color: #606060;
+}
+
+.img_my_work {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    text-align: start;
+    padding: 25px;
+}
+
+.description_my_work {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1c1c1;
+    height: 30%;
+}
+
+.name_my_work {
+    width: 50%;
+    background-color: #808080;
+}
+
+.short_description {
+    background-color: #808080;
+    margin-top: 15px;
+    height: 95%;
+}
+
+.look {
+    background-color: #c1c1c1;
+    width: 20%;
+    padding: 10px;
+    height: 8%;
+}

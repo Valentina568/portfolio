@@ -1,4 +1,19 @@
 .projects {
-height: 100vh;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
     background-color: #c6c2ff;
 }
+
+.my_works_block {
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+.my_works {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1433eaee-b6e3-4c18-a0a5-fba5defc25f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Skills/MySkill/MySkill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Skills/MySkill/my_skill.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/projects.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575889618931</updated>
       <workItem from="1575889620077" duration="8188000" />
-      <workItem from="1576740744148" duration="6331000" />
+      <workItem from="1576740744148" duration="10163000" />
     </task>
     <servers />
   </component>
