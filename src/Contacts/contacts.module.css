@@ -1,4 +1,44 @@
 .contacts {
     height: 100vh;
     background-color: #ffc7b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_block {
+    border: 1px solid black;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_block {
+    border: 1px solid black;
+    width: 45%;
+    height: 45%;
+}
+
+.form {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    height: 10%;
+    background-color: #c1c1c1;
+}
+
+.textarea {
+    height: 70%;
+    background-color: #c1c1c1;
+}
+
+.button {
+    padding: 15px;
 }

@@ -1,0 +1,13 @@
+.social_networks {
+    border: 1px solid black;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.network {
+    width: 60px;
+    height: 60px;
+    background-color: #c1c1c1;
+}
