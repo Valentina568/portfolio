@@ -1,4 +1,17 @@
 .slogan {
     height: 250px;
     background-color: #fcffbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan_block {
+    border: 1px solid black;
+    width: 80%;
+    height: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

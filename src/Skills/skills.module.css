@@ -3,12 +3,14 @@
     background-color: #cfffcc;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .my_skills_block {
     text-align: center;
     border: 1px solid black;
     width: 80%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

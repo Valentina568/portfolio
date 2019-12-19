@@ -1,6 +1,7 @@
 .projects {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: #c6c2ff;
 }
@@ -8,7 +9,11 @@
 .my_works_block {
     border: 1px solid black;
     width: 80%;
+    height: 80%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .my_works {
