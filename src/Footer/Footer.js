@@ -9,7 +9,7 @@ function Footer() {
             <div className={styles.footer_block}>
                 <div>Антипова Валентина</div>
                 <SocialNetwork />
-                <div>2019 Все права защищены</div>
+                <div>2020 Все права защищены</div>
 
             </div>
 
