@@ -11,6 +11,7 @@ function Projects() {
                 <div className={styles.my_works}>
                     <MyWork />
                     <MyWork />
+                    <MyWork />
                 </div>
             </div>
         </div>

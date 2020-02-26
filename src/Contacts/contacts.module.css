@@ -42,3 +42,15 @@
 .button {
     padding: 15px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .form_block {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .form_block {
+        width: 100%;
+    }
+}

@@ -1,25 +1,79 @@
 .main {
-    height: 100vh;
-    background-color: #f6d3ff;
+    min-height: 100vh;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
 }
 
 .container {
     width: 80%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
 }
 
 .greeting {
+    /*width: 50%;*/
     display: flex;
     flex-direction: column;
 }
 
-.photo {
-    height: 400px;
-    width: 300px;
-    background-color: #606060;
+.greeting span:nth-child(1) {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+}
+
+.greeting span:nth-child(2) span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 12px;
+    width: 100%;
+    z-index: -1;
+    background-color: #3ae43a;
+}
+
+.photo_block {
+    position: relative;
+    z-index: 0;
+    transition: all .5s;
+    transform-style: preserve-3d;
+    margin-top: 50px;
+}
+
+.my_photo {
+    width: 20em;
+    height: 25em;
+    display: block;
+    background: #3a3939;
+    transform: translateZ(0);
+}
+
+ .frame {
+    position: absolute;
+    height: 105%;
+    width: 100%;
+    border: 5px solid #3ae43a;
+    left: 15px;
+    top: -15px;
+     z-index: -1;
 }
